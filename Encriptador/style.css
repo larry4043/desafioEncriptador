@@ -88,7 +88,7 @@ body::before {
 
 
 .inputTexto::placeholder{
-    background-image: url("img/Muñeco.png");
+    background-image: url("img/muneco.png");
     background-repeat: no-repeat;
     background-position:center top 1em;
     background-size: 50%;
