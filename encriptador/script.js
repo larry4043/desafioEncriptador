@@ -42,8 +42,7 @@ function botonEncriptar() {
   //Comentario: agregue "toLowerCase" para convertir en minusculas el texto encriptado
   let textArea2 = document.getElementById("inputTexto").value.toLowerCase();
   textArea2 = textArea2.replace(/a|e|i|o|u/g, function (matched) {
-    return vocales[matched];
-  });
+    return vocales[matched];});
 
   let inputTexto = document.getElementById("textoEncriptar");
   inputTexto.value = textArea2;
@@ -57,7 +56,7 @@ function botonEncriptar() {
   mostrarBotonCopiar();
   mostrarBotonDesencriptar();
   return;
-}
+  }
 
 //Comentario: esta funcion es para desencriptar
 function botonDesencriptar() {
