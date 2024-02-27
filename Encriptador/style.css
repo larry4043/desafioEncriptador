@@ -163,13 +163,15 @@ body::before {
 h1 {
     font-family: "Audiowide", sans-serif;
     font-size: 72px;
-    padding-bottom: 3rem;
+    /*padding-bottom: 3.5rem;*/
     text-align: center;
     background-clip: text;
-    background: linear-gradient(#D4AF37,white,orange,violet,red);
+    background: linear-gradient(#D4AF37,white,orange);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    
+    position: absolute; 
+    top: 15px;
+    margin-left: 9rem;
 }
 
 h5{
